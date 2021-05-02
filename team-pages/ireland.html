@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/team-page.css">
+    </head>
+    <body>
+        
+        <div class="team-header">
+            <div class = "header-home">Dublin</div>
+            <div class = "name-and-logo">
+            <div class = "header-name">Ireland</div>
+            </div>
+        </div>
+        <div class = "main-body">
+        <div class = "logo-and-lore">
+        <div class = "logo">
+            <img src = "/logos/ireland-vect.svg" width=400 height=400>
+        </div>
+        <div class = "lore">
+            <div class = "lore-long">
+                <p>Under construction -  detailed history of the Ireland coming soon!</p>
+            </div>
+
+            <div class = "lore-speaker">
+                Ben Artuso — G.G.M.O.A.T., Season 3 Scouters Owner
+            </div>
+        </div>
+    </div>
+</div>
+<div class = "big-stats">
+    <div id = "regular-record">
+        <h1 class = "big-num-title">REGULAR SEASON</h1>
+            <p class = "w-l"><span id="reg-win">#</span>W, <span id = "reg-loss">#</span>L</p>
+        <h1 class = "huge-num"><span id= "reg-rate">%</span></h1>
+        <p class = "team-rank"><span id = "reg-rank">x</span> of <span class="n">15</span> teams</p>
+    </div>
+    <div id = "playoff-record">
+        <h1 class = "big-num-title">PLAYOFFS</h1>
+            <p class = "w-l"><span id="play-win">#</span>W, <span id = "play-loss">#</span>L</p>
+        <h1 class = "huge-num"><span id= "play-rate">%</span></h1>
+        <p class = "team-rank"><span id = "play-rank">x</span> of <span class="n">15</span> teams</p>
+    </div>
+</div>
+
+<div class = "big-stats-vis">
+    <div id = "regular-vis-div">
+        <svg id = "regular-vis-svg"></svg>
+    </div>
+
+    <div id = "playoff-vis-div">
+        <svg id = "playoff-vis-svg"></svg>
+    </div>
+</div>
+
+
+<!--<div class = "big-stats" id = "postseason">
+    <div>
+        <h1>hello</h1>
+    </div>
+    <div>
+        <h1>What's up</h1>
+    </div>
+</div>-->
+
+    <div class = "main-body" id = "team-history">
+
+
+    <h3>Team history</h3>
+    <p class = "descriptor">Click or hover for a year-by-year breakdown of key franchise milestones. Greyed-out seasons indicate the team's absence from the 202HL.</p>
+    <svg id = "season-history"></svg>
+    <svg id = "season-winrate"></svg>
+    <div id = "rival-button-container">
+    </div>
+    <h3>Playoff performance</h3>
+    <p class = "descriptor">In each season, 12 teams are active in 202HL competition. Of these, the four conference winners and the two best non-conference-winning teams are guaranteed a spot in the playoffs' first round.
+        
+    Of the remaining six teams, the worst two are ineligible for the playoffs that year (the "missed" column below) and the remaining 4 compete in a play-in round to win entry to the main tournament. </p>
+    
+    </div>
+
+<svg id = "playoff-hist"></svg>
+<div id = "the-thing">
+
+    <div class = "main-body">
+        <h3>Team trophy case</h3>
+        <p class = "descriptor">Featured below are the team, individual, and staff honors awarded to each team in each season. Awards are only listed for seasons when the team was an active participant in the 202HL.</p>
+        <p class = "descriptor">The following awards are eligible for trophy case display:</p>
+        <div class="award-example">
+        </div>
+    </div>
+<svg id = "trophy-wall-left"></svg>
+</div>
+
+<div class = "main-body">
+<h3>Career team recordholders</h3>
+<div class="record-buttons"></div>
+<svg id = "individual-records"></svg>
+
+
+<h3>Single-season team records</h3>
+<div class="record-buttons"></div>
+<svg id = "season-records"></svg>
+
+</div>
+</div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src = "/core-js/season-data.js"></script>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src = '/core-js/d3-textwrap.js'></script>
+        <script src = "/core-js/team-data.js"></script>
+        <script src = "/team-data/ireland-data.js"></script>
+        <script src = "/core-js/draw-team-page.js"></script>
+        <script src="/team-js/ireland.js" async defer></script>
+    </body>
+</html>

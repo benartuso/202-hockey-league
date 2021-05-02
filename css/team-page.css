@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.main-body {
+    margin: 50px 10%
+}
+.team-header {
+    min-height:200px;
+    margin:0;
+}
+
+.header-home {
+    font-size:46px;
+    color:white;
+    font-family:"Jura";
+    text-align:center;    
+    padding-top:20px;
+    padding-bottom:10px
+}
+
+.header-name {
+    font-size:100px;
+    margin:10px;
+    padding-bottom:15px;
+    color:white;
+    font-family:Staatliches;
+    text-align:center;
+}
+
+.logo-and-lore {
+    display:flex;
+    align-items:center;
+    justify-content:space-around
+}
+
+.logo {
+    flex:0 0 1;
+    
+   }
+.lore {
+    display:flex;
+    flex-direction:column;
+    flex:0 0 1;
+    justify-content:space-between;
+    padding:35px;
+}
+
+.lore-long {
+    font-family: 'Noto Sans KR';
+    font-size:1.25em;
+}
+
+.lore-speaker {
+    text-align:right;
+    font-size:1.25em;
+    font-style:italic;
+    color:grey;
+    font-family:'PT Serif'
+    
+}
+
+h3 {
+    font-family:"Jura";
+    margin-top:150px;
+    font-size:1.75em
+}
+
+.tooltip { 
+    position:absolute;
+    text-align:center;
+    background:white;
+    border:1px solid black;
+    border-radius: 8px;
+    pointer-events:none;
+    width:100px;
+    height:100px
+}
+
+.rival-button {
+    font-family:Jura;
+    margin-top:35px;
+    font-size:1.1em;
+}
+
+.big-stats {
+    background-color:black;
+    width:100%;
+
+    display:flex;
+}
+
+#regular-record, #playoff-record {
+    flex: 1;
+    font-family:"Noto Sans KR";
+    color:white;
+    margin:0px;
+    text-align:center;
+}
+
+
+
+.huge-num {
+    font-family: "Arvo";
+    font-size:6em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.w-l {
+    font-family: "IBM Plex Mono";
+    font-size:2em;
+    font-weight:200;
+    margin-top:0px;
+    margin-bottom:0px
+}
+
+.team-rank {
+    font-size:1.5em;
+    font-weight:10px;
+}
+
+.big-stats-vis {
+    display:flex;
+}
+
+#regular-vis-div, #playoff-vis-div {
+    flex:1;
+}
+
+.team-abbrev, .number {
+    font-family:"Noto Sans KR"
+}
+
+text.star, text.star_goals, text.star_assists, text.star_hits, text.hat_trick, text.bruiser, text.goals_in_game, text.points, text.points_in_game {
+    font-family:"Noto Sans KR";
+    font-size:1.25em;
+}
+
+text.star_goals, text.star_assists, text.star_hits, text.hat_trick, text.bruiser, text.goals_in_game, text.points, text.points_in_game{
+    text-anchor: middle;
+}
+text.bruiser {
+    font-size:1.2em;
+}
+
+.record-header {
+    text-anchor:middle;
+    font-family:"Jura";
+    font-size:2em;
+}
+
+.record-header-name {
+    font-family:"Noto Sans KR";
+    font-size:1.75em;
+}
+
+.hist-text {
+    font-size:1.2em;
+    fill:white;
+    text-anchor:middle;
+    font-family:"Noto Sans KR"
+}
+
+.annotation {
+    font-family:Staatliches;
+    font-size:2em;
+    text-anchor:middle;
+}
+
+text.axis {
+    font-family:"Jura";
+    font-weight:800
+}
+
+text.axis-label {
+    font-family:"Jura";
+    font-weight:900;
+    font-size:1.2em;
+    text-anchor:middle;
+}
+
+.winrate-axis {
+    font-family:"Jura";
+    font-size:1em;
+}
+
+#trophies {
+    display:flex;
+}
+#trophy-wall-left{
+    margin:0 auto;
+    display:block;
+}
+
+
+.award {
+    font-family:"Staatliches";
+    text-anchor:middle;
+    font-size:1.25em;
+}
+
+.abbrev {
+    font-family:Graduate;
+    font-size:2em;
+    text-anchor:middle;
+}
+
+.mipoty-abbrev {
+    font-family:Graduate;
+    font-size:1.25em;
+    text-anchor:middle
+}
+
+.season-num-label {
+    font-family:Jura;
+    font-size:3em;
+    font-weight:300;
+}
+
+.allstar {
+    fill:white;
+    font-family:Staatliches;
+    text-anchor:middle;
+}
+
+.no-awards {
+    font-size:1.5em;
+    font-family:"Noto Sans KR";
+    font-weight:200;
+}
+
+.descriptor {
+    font-weight:300;
+    font-size:1.15em;
+    font-family:"Noto Sans KR";
+}
+
+
+
+.demo-award {
+    flex: 1
+}
+
+.allstar-mvp {
+    fill:black;
+    font-family:Staatliches;
+    text-anchor:middle
+}
+
+.back-arrow {
+    width:30px;
+}

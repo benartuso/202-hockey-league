@@ -1136,19 +1136,7 @@ var cheeseSeason = [
       "points_in_game": 2.0,
       "bruiser": 1.0
     },
-    {
-      "star": "M. MCDONALD GOALIE (S1)",
-      "star_goals": 26.0,
-      "star_assists": 963.0,
-      "star_hits": 0.0,
-      "season_number": 1,
-      "points": 989.0,
-      "hat_trick": 1,
-      "goals_in_game": 26.0,
-      "assists_in_game": 963.0,
-      "points_in_game": 989.0,
-      "bruiser": 0.0
-    },
+
     {
       "star": "MACDONALD (S4)",
       "star_goals": 2.0,

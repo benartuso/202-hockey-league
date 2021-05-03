@@ -1,0 +1,9 @@
+games.csv
+league-records*
+package-lock.json
+scouters-messed*
+node_modules/*
+compare-teams/*
+python/*
+trophy-wall/*
+.DS_STORE
